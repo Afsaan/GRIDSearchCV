@@ -1,0 +1,7 @@
+ Import GRIDsearchCV -> from sklearn.model_selection import GridSearchCV
+
+parameter on grid search - 1. estimator  - type of model you are using
+			   2. param_grid  - all the paramters
+			   3. scoring - type of metrices for evaluation
+			   4. cv = (cross validation ) different types of training and testing combination set
+			   5. n_jobs = number of cpu u ant to give to perform this job
